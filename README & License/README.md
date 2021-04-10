@@ -1,11 +1,16 @@
-<link rel="stylesheet" href="../CSS/markdown.css">
-<div class="toBe" >
+<style>
+    .centeredClass{
+        text-align: center;
+    }
+</style>
+
+<div class="centeredClass" >
     <img src="mainLogo.png" alt="Personal Port">
 </div>
 
-<h1 class="toBe">Personal Portfolio</h1>
+<h1 class="centeredClass">Personal Portfolio</h1>
 
-<p class="toBe">
+<p class="centeredClass">
    This Project was created to showcase my github repository and any other projects that 
     I have had the privilege of working on. It is created for the potential of backing up my resume.
     <br>
