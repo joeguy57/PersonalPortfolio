@@ -2,5 +2,5 @@
     <img src="mainLogo.png" alt="Personal Port">
 </div>
 
-#Personal Portfolio (Website)
+# Personal Portfolio (Website)
 
