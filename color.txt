@@ -1,0 +1,1 @@
+"Medium Slate Blue":"8c52ff","Cobalt Blue":"004aad","Mint Cream":"eefbf8","Tyrian Purple":"64113f","Viridian Green":"119da4"
