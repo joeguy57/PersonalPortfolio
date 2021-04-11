@@ -32,7 +32,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Bugs and Feature Requests
 - None so far
-- 
+
 ## Creator
 <div align="center">
     <a href="https://github.com/joeguy57">  
