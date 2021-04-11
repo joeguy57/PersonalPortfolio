@@ -32,7 +32,9 @@ This Project is currently in progress and is on its first days of being done.
 - None so far
 ## Creator
 <div align="center">
- <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
+<a href="https://github.com/joeguy57">
+<img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
+ </a>
  <p>Joseph Menezes</p>
 </div>
 
