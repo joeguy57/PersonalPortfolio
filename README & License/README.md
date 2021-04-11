@@ -43,7 +43,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Thanks
 Thank you for taking the time to go through my portfolio.
-<div ><span><img src="githubLogo.png" width = 100px alt="Personal Port"></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><img style="background: transparent;" src="linkedInLogo.png" width = 100px alt="Personal Port"></span></div>
+<div ><a href="https://github.com/joeguy57"><span><img src="githubLogo.png" width = 100px alt="GitHub Logo"></a></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><a href="https://www.linkedin.com/in/joseph-menezes/"><img style="background: transparent;" src="linkedInLogo.png" width = 100px alt="LinkedIn Logo"></a></span></div>
 
 ## Copyright and License
 Code and documentation copyright the authors. Code released under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
