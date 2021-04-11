@@ -1,5 +1,3 @@
-<body style="background-color: #e5e5e5 ">
-</body>
 <div align="center">
     <img src="mainLogo.png" alt="Personal Port">
 </div>
