@@ -1,5 +1,7 @@
 <div align="center">
-    <img src="mainLogo.png" alt="Personal Port">
+    <a href="https://github.com/joeguy57/PersonalPortfolio">
+        <img src="mainLogo.png" alt="Personal Port">
+    </a>
 </div>
 
 <h1 align="center">Personal Portfolio</h1>
