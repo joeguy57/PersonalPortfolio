@@ -32,6 +32,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Bugs and Feature Requests
 - None so far
+- 
 ## Creator
 <div align="center">
     <a href="https://github.com/joeguy57">  
@@ -42,7 +43,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Thanks
 Thank you for taking the time to go through my portfolio.
-<div ><span><img src="githubLogo.png" width = 100px alt="Personal Port"></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><img src="linkedInLogo.png" width = 100px alt="Personal Port"></span></div>
+<div ><span><img src="githubLogo.png" width = 100px alt="Personal Port"></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><img style="background: transparent;" src="linkedInLogo.png" width = 100px alt="Personal Port"></span></div>
 
 ## Copyright and License
 Code and documentation copyright the authors. Code released under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
