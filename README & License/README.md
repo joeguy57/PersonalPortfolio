@@ -35,14 +35,14 @@ This Project is currently in progress and is on its first days of being done.
 ## Creator
 <div align="center">
     <a href="https://github.com/joeguy57">  
-        <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>  
+        <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="100"/>  
     </a>
     <p>Joseph Menezes</p>
 </div>
 
 ## Thanks
 Thank you for taking the time to go through my portfolio.
-| ![GitHub](githubLogo.png =250x)   | ![LinkedIn](linkedInLogo.png =250x)  |
+|  <img src="githubLogo.png" width = 50px alt="Personal Port">  | <img src="linkedInLogo.png" width = 50px alt="Personal Port">  |
 |:--------:| :--------:|
 ## Copyright and License
 Code and documentation copyright the authors. Code released under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
