@@ -42,7 +42,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Thanks
 Thank you for taking the time to go through my portfolio.
-| GitHub   | LinkedIn  |
+| ![GitHub](githubLogo.png =250x)   | ![LinkedIn](linkedInLogo.png =250x)  |
 |:--------:| :--------:|
 ## Copyright and License
 Code and documentation copyright the authors. Code released under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
