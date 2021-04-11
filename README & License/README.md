@@ -15,7 +15,7 @@
     <a href="https://github.com/joeguy57/PersonalPortfolio/issues">Request feature</a>
 </p>
 
-##Table Of Contents
+## Table Of Contents
 - [Status](#status)
 - [What's Included](#whats-included)
 - [Bugs and Feature Requests](#bugs-and-feature-requests)
@@ -34,12 +34,18 @@ This Project is currently in progress and is on its first days of being done.
 - None so far
 ## Creator
 <div align="center">
-    <a href="https://github.com/joeguy57">
-        <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
-        <p>Joseph Menezes</p>
-    </a>
-    <p>In the above link you can connect with me on GitHub, and preview my portfolio and some work on the projects I have contributed and worrked on.</p>
-    
+    <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
+    <p>Joseph Menezes</p>
+    <table border="0">
+     <th><b style="font-size:30px">GitHub</b></th>
+     <th><b style="font-size:30px">LinkedIn</b></th>
+     <tr>
+        <td>In the above link you can connect with me on GitHub, and preview my portfolio and some work on the projects I have contributed and worrked on.</td>
+        <td>In the above link you can connect with me on GitHub, and preview my portfolio and some work on the projects I have contributed and worrked on.</td>
+     </tr>
+    </table>
+    <a href="https://github.com/joeguy57">    
+    </a>   
 </div>
 
 ## Thanks
