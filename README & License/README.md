@@ -21,7 +21,7 @@
 - [Bugs and Feature Requests](#bugs-and-feature-requests)
 - [Creator](#creator)
 - [Thanks](#thanks)
-- [CopyRight and License](#copyright-and-license)
+- [Copyright and License](#copyright-and-license)
 
 ## Status
 This Project is currently in progress and is on its first days of being done.
@@ -34,10 +34,12 @@ This Project is currently in progress and is on its first days of being done.
 - None so far
 ## Creator
 <div align="center">
-<a href="https://github.com/joeguy57">
-<img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
- </a>
- <p>Joseph Menezes</p>
+    <a href="https://github.com/joeguy57">
+        <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="200"/>
+        <p>Joseph Menezes</p>
+    </a>
+    <p>In the above link you can connect with me on GitHub, and preview my portfolio and some work on the projects I have contributed and worrked on.</p>
+    
 </div>
 
 ## Thanks
