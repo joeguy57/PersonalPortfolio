@@ -31,9 +31,9 @@ This Project is currently in progress and is on its first days of being done.
 ## Bugs and Feature Requests
 - None so far
 ## Creator
-<span align = "center">
- <img src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="50"/>
- <p>Joseph Menezes</p>
+<span >
+ <img align = "center"src="https://avatars.githubusercontent.com/u/56702275?s=400&u=026c4c9ee2a9450b09d8a7605644dd1161b1d91b&v=4" alt="drawing" width="50"/>
+ <p align = "center">Joseph Menezes</p>
 </span>
 
 ## Thanks
