@@ -13,7 +13,7 @@ navLinks.forEach(link => {
 
 portfolioLinks.forEach(portLink => {
     portLink.addEventListener('click', ()=>{
-        var srcLink = portLink.querySelector('img').src;
+        let srcLink = portLink.querySelector('img').src;
         localStorage.setItem('imageNeeded',srcLink)
     })
 })

@@ -5,10 +5,14 @@ const portImage = document.querySelector('.portfolio-item-individual__img')
 //Set up texts
 const portfolioStrong = document.querySelector('.section__title--intro strong');
 
+
 //Here We will use srcTag[2] in order to make our comparison.
 let srcTag = getImage.split("Portfolio/");
-let projectText = "";
-let title = "";
+let projectText ;
+let title;
+let intitalPara;
+let firstPara;
+let secondPara;
 switch (srcTag[2]){
     case "port__1.jpg":
         title = "";
