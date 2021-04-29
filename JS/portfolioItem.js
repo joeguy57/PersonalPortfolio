@@ -25,6 +25,7 @@ let link;
 let teamMember;
 let needsTeam = false;
 
+//Change to 1
 switch (srcTag[2]) {
     case "port__1.jpg":
         title = "The";
