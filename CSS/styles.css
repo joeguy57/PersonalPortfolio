@@ -308,7 +308,7 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     /*Set Height*/
-    height: 100vh;
+    height: max-content;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
