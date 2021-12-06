@@ -101,6 +101,22 @@ switch (srcTag[2]) {
         technologies = "HTML, JavaScript, CSS";
         link = "https://github.com/joeguy57/RockPaperScissorsJS";
         break;
+    case "port__5.jpg":
+        title = "Hand Recognition";
+        projectText = "A Finger Counting problem";
+        subtitle = "Visual recognition, brought into a personal computing";
+        initialPara = "This is a personal project, inspired by the topic of AI, taught in my courses. Using agents " +
+            "and sensors to help recognize how many fingers are being placed up";
+        firstPara = "This program works on both the left and right hand and actively demonstrates what number the " +
+            "user is presenting to the camera. The device then shows the number and an image representing the " +
+            "number being shown to the agent.";
+        secondPara = "In creating this application, I learned the extensive use of python libraries, " +
+            "and how the use of them can be used to target real world problems. This application can be used to " +
+            "teach the user to count using their finger and to help recognise the fingers placed up. " +
+            "this also sets up for basic use of gestures and other uses of hand recognition.";
+        technologies = "Python";
+        link = "https://github.com/joeguy57/HandTrackingProject";
+        break;
     default:
         title = "Project Does not Exist";
         projectText = "No Image was Found";
@@ -118,9 +134,9 @@ portfolioTitle.innerHTML = title + "<strong>" + projectText + "</strong>";
 portfolioSubtitle.innerHTML = subtitle;
 portfolioInitPara.innerHTML = initialPara;
 portfolioFirstPara.innerHTML = firstPara;
-portfolioSecondPara.innerHTML= secondPara;
+portfolioSecondPara.innerHTML = secondPara;
 portfolioTech.innerHTML = "Technologies Used: " + "<strong>" + technologies + "</strong>";
 
-if (needsTeam){
+if (needsTeam) {
     portfolioTeam.innerHTML = "Developers: " + "<strong>" + teamMember + "</strong>";
 }
