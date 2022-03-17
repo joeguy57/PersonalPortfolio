@@ -441,10 +441,12 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
 }
+
 
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
@@ -455,6 +457,7 @@ header {
     position: relative;
     z-index: 2;
 }
+
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
