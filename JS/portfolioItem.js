@@ -26,7 +26,7 @@ let teamMember;
 let needsTeam = false;
 
 //Change to 1
-//Set to 1 before merging with main
+//Set srcTag[x] to x = 1 before merging with main
 switch (srcTag[1]) {
     case "port__1.jpg":
         title = "The";
