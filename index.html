@@ -2,180 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="us-ascii">
     <meta name="title" content="A Personal Portfolio - Created by Joseph Menezes">
     <meta name="description"
         content="This website is created by Joseph Menezes, for all those who have interest in his work.">
     <meta name="google-site-verification" content="q_HFMM6gv2mG9LPwVUOHn81nPwFIR_4VJwjNrCzUCRQ" />
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-    <title>Joseph's Personal Portfolio</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Joseph&#39;s Personal Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet" />
+    <link href="CSS/styles.css" rel="stylesheet" />
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="Img/logo/TitleLogo.png" alt="">
-        </div>
+        <div class="logo"><img alt="" src="Img/logo/TitleLogo.png" /></div>
+        <button aria-label="toggle navigation" class="nav-toggle"></button>
 
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
                 <!--            <li class="nav__item"><a href="#referenceSlide" class="nav__link">References</a></li>-->
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a class="nav__link" href="#work">My Work</a></li>
             </ul>
         </nav>
     </header>
     <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Joseph Menezes</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Software Developer</p>
-        <img src="Img/logo/mainLogo.png" alt="an Image of the main logo" class="intro__img">
-    </section>
 
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Joseph Menezes</strong></h1>
+
+        <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+        <img alt="an Image of the main logo" class="intro__img" src="Img/logo/mainLogo.png" />
+    </section>
     <!-- My Service -->
+
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
+
         <div class="services">
             <div class="service">
                 <h3>Software Development</h3>
-                <br>
-                <p>
-                    Through my work and experience, I have demonstrated my software development capabilities.
-                    In working with clients and team members, I have proven the ability to produce
-                    satisfactory outcomes.
+                &nbsp;
 
-                </p>
+                <p>Through my work and experience, I have demonstrated my software development capabilities. In working
+                    with clients and team members, I have proven the ability to produce satisfactory outcomes.</p>
             </div>
+
             <div class="service">
                 <h3>Web Design</h3>
-                <br>
-                <p>
-                    In this project and many of which is in my portfolio, I have collaborated with companies and
-                    clients,
-                    in order to produce a satisfactory website with use of JavaScript, HTML and CSS.
-                </p>
+                &nbsp;
+
+                <p>In this project and many of which are in my portfolio, I have collaborated with companies and
+                    clients, to produce a satisfactory website with the use of JavaScript, HTML and CSS. Furthering this
+                    over the years I have incorportated back-end development using PostgreSQL and flask.</p>
             </div>
+
             <div class="service">
                 <h3>Android Development</h3>
-                <br>
-                <p>
-                    In my work I have used Android Studio, and it's infrastructure of Java and XML, To create mobile
+                &nbsp;
+
+                <p>In my work I have used Android Studio, and it&#39;s infrastructure of Java and XML, To create mobile
                     applications that fit the needs of the client and develops user engagement. With recent developments
-                    of
-                    learning Flutter, my Android Development can and will expand towards a more general Mobile
-                    Development.
-                </p>
+                    of learning Flutter, my Android Development can and will expand towards a more general Mobile
+                    Development.</p>
             </div>
         </div>
-        <a href="#work" class="btn">My Work</a>
+        <a class="btn" href="#work">My Work</a>
     </section>
     <!--About me-->
+
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
+
         <p class="section__subtitle section__subtitle--about">Computing Science Student</p>
+
         <div class="about-me__body">
-            <p> I am a hard-working Computing Science student, who displays leadership and problem-solving skills.
-                I currently attend the University of Alberta, with 4 months of work experience.
-                I have a proven knowledge of web design, database development,
-                programming skills and OS maintenance who would be an asset to any company.
-                Frequently praised for being efficient, good at communication and exceptional
-                teamwork capabilities by my peers, I can be relied upon to help your company achieve its goals.
+            <p>I am a hard-working Computing Science student, who displays leadership and problem-solving skills. I
+                currently attend the University of Alberta, with 4 months of work experience. I have proven knowledge of
+                web design, database development, programming skills and OS maintenance who would be an asset to any
+                company. Frequently praised for being efficient, good at communication and exceptional teamwork
+                capabilities by my peers, I can be relied upon to help your company achieve its goals.</p>
+
+            <p>For many years I have learned Information Technology starting from High School then transformed that
+                passion to COmputer Science in university. Currently, I hold certificates in technical support. This
+                provides me with the ability to troubleshoot certain problems in the systems and networks of a company.
             </p>
-            <p>
-                For many years I have learned Information Technology starting from High School
-                then furthering with that passion in university. Currently, I hold certificates in technical support.
-                This provides me with the ability of troubleshooting certain problems
-                in the systems and networks of a company.
-            </p>
-            <p>
-                Do feel free to go through my portfolio to see any of the projects that I am proud to display,
-                showcasing my use of programming language. Also visit my LinkedIn and other social platforms.
-            </p>
-            <p><a href="#footer">Visit My Socials</a></p>
+
+            <p>Do feel free to go through my portfolio to see any of the projects that I am proud to display, showcasing
+                my use of programming language. Also, visit my LinkedIn and other social platforms.</p>
+
+            <p><a href="#footer">Social Links</a></p>
         </div>
-
-        <img src="Img/profilePic.jpg" alt="image of Joseph Menezes" class="about-me__img">
+        <img alt="image of Joseph Menezes" class="about-me__img" src="Img/profilePic.jpg" />
     </section>
-
     <!--My Work-->
+
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
+
         <p class="section__subtitle section__subtitle--work"></p>
-        <div class="portfolio">
-            <a href="portfolioItem.html" class="portfolio__item">
-                <img src="Img/Portfolio/port__1.jpg" class="portfolio__img" alt="portfolio__1">
-            </a>
-            <a href="portfolioItem.html" class="portfolio__item">
-                <img src="Img/Portfolio/port__2.jpg" class="portfolio__img" alt="portfolio__2">
-            </a>
-            <a href="portfolioItem.html" class="portfolio__item">
-                <img src="Img/Portfolio/port__3.jpg" class="portfolio__img" alt="portfolio__3">
-            </a>
-            <a href="portfolioItem.html" class="portfolio__item">
-                <img src="Img/Portfolio/port__4.jpg" class="portfolio__img" alt="portfolio__4">
-            </a>
-            <a href="portfolioItem.html" class="portfolio__item">
-                <img src="Img/Portfolio/port__5.jpg" class="portfolio__img" alt="portfolio__4">
-            </a>
-        </div>
+
+        <div class="portfolio"><a class="portfolio__item" href="portfolioItem.html"><img alt="portfolio__1"
+                    class="portfolio__img" src="Img/Portfolio/port__1.jpg" /> </a> <a class="portfolio__item"
+                href="portfolioItem.html"> <img alt="portfolio__2" class="portfolio__img"
+                    src="Img/Portfolio/port__2.jpg" /> </a> <a class="portfolio__item" href="portfolioItem.html"> <img
+                    alt="portfolio__3" class="portfolio__img" src="Img/Portfolio/port__3.jpg" /> </a> <a
+                class="portfolio__item" href="portfolioItem.html"> <img alt="portfolio__4" class="portfolio__img"
+                    src="Img/Portfolio/port__4.jpg" /> </a> <a class="portfolio__item" href="portfolioItem.html"> <img
+                    alt="portfolio__5" class="portfolio__img" src="Img/Portfolio/port__5.jpg" /> </a></div>
     </section>
-
-
     <!--footer-->
-    <footer class="footer" id="footer">
-        <a href="mailto:josephm340@gmail.com" class="footer__link">hello@josephmenezes.me</a>
+
+    <footer class="footer" id="footer"><a class="footer__link"
+            href="mailto:josephm340@gmail.com">hello@josephmenezes.me</a>
+
         <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/joeguy57" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
+            <li class="social-list__item"></li>
             <!---github-->
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.instagram.com/joseph.menezes/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
+            <li class="social-list__item"></li>
             <!---instagram-->
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/joseph-menezes/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
+            <li class="social-list__item"></li>
             <!---LinkedIn-->
         </ul>
     </footer>
-
     <script src="JS/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
