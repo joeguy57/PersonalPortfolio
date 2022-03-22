@@ -25,8 +25,8 @@ let link;
 let teamMember;
 let needsTeam = false;
 
-//Set to 1 before merging with main
-switch (srcTag[2]) {
+//Change to 1
+switch (srcTag[1]) {
     case "port__1.jpg":
         title = "The";
         projectText = "Accessibilities Tool";
