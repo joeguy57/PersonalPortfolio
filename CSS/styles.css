@@ -1,3 +1,4 @@
+@import url("hamburger.css");
 *,
 *::before,
 *::after {
@@ -184,7 +185,7 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-accent-2);
 }
 
 .nav-toggle {
@@ -219,7 +220,6 @@ header {
 .nav-open .hamburger::after {
     opacity: 0;
 }
-
 /*Hamburger*/
 
 .hamburger:hover {
