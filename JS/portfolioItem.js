@@ -11,7 +11,7 @@ const portfolioSecondPara = document.querySelector('.portfolio-item-individual__
 const portfolioTech = document.querySelector('.portfolio-item-individual__technologies');
 const portLink = document.querySelector('.portfolio-item-individual .btn');
 const portfolioTeam = document.querySelector('.portfolio-item-individual__team-members');
-const websiteTitle = document.title;
+let websiteTitle;
 
 //Here We will use srcTag[2] in order to make our comparison.
 let srcTag = getImage.split("Portfolio/");
@@ -126,11 +126,12 @@ switch (srcTag[1]) {
 }
 
 //Creating the webpage
-websiteTitle.innerHTML = title
+document.title = title + subtitle;
+websiteTitle = document.title;
 introImage.src = getImage;
-introImage.alt = "This is the main Photo"
+introImage.alt = "This is the main Photo";
 portImage.src = getImage;
-portImage.alt = 'This is the Portfolio Image'
+portImage.alt = 'This is the Portfolio Image';
 portLink.href = link;
 
 portfolioTitle.innerHTML = title + "<strong>" + projectText + "</strong>";

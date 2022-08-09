@@ -1,3 +1,7 @@
+<!--suppress ALL -->
+
+
+
 <div align="center">
     <a href="https://github.com/joeguy57/PersonalPortfolio">
         <img src="mainLogo.png" alt="Personal Port">
@@ -43,7 +47,7 @@ This Project is currently in progress and is on its first days of being done.
 
 ## Thanks
 Thank you for taking the time to go through my portfolio.
-<div>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<a href="https://github.com/joeguy57"><span><img style="background: transparent;" src="githubLogo.png" width = 100px alt="GitHub Logo"></span></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><a href="https://www.linkedin.com/in/joseph-menezes/"><img style="background: transparent;" src="linkedInLogo.png" width = 75px alt="LinkedIn Logo"></a></span></div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<a href="https://github.com/joeguy57"><span><img style="background: transparent;" src="githubLogo.png" width = 1280 alt="GitHub Logo"></span></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><a href="https://www.linkedin.com/in/joseph-menezes/"><img style="background: transparent;" src="linkedInLogo.png" width = 1600 alt="LinkedIn Logo"></a></span></div>
 
 ## Copyright and License
 Code and documentation copyright the authors. Code released under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
