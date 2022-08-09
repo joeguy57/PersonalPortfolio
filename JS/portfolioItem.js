@@ -143,4 +143,5 @@ portfolioTech.innerHTML = "Technologies Used: " + "<strong>" + technologies + "<
 
 if (needsTeam) {
     portfolioTeam.innerHTML = "Developers: " + "<strong>" + teamMember + "</strong>";
+
 }
