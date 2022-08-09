@@ -126,7 +126,7 @@ switch (srcTag[1]) {
 }
 
 //Creating the webpage
-document.title = title + subtitle;
+document.title = title + " " +projectText;
 websiteTitle = document.title;
 introImage.src = getImage;
 introImage.alt = "This is the main Photo";
