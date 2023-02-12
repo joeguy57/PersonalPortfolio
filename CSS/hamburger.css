@@ -66,3 +66,9 @@
     display: block;
     transition: 0.3s;
   }
+
+  .fixed-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+  }

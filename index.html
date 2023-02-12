@@ -1,191 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="us-ascii">
-    <meta name="title" content="A Personal Portfolio - Created by Joseph Menezes">
-    <meta name="description"
-          content="A personal portfolio is an important part of the qualifications of a web designer or software developer today.
-                 This website provides all the experience and information for Joseph Menezes, an up and coming developer within the Greater Edmonton Area.">
-    <meta name="google-site-verification" content="q_HFMM6gv2mG9LPwVUOHn81nPwFIR_4VJwjNrCzUCRQ"/>
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-    <meta name="keywords"
-          content="software developer, web developer, personal portfolio, portfolio, Joseph, Menezes, Joseph Menezes, Application,personal">
+  <head>
+    <meta charset="us-ascii" />
+    <meta
+      name="title"
+      content="A Personal Portfolio - Created by Joseph Menezes"
+    />
+    <meta
+      name="description"
+      content="A personal portfolio is an important part of the qualifications of a web designer or software developer today.
+                 This website provides all the experience and information for Joseph Menezes, an up and coming developer within the Greater Edmonton Area."
+    />
+    <meta
+      name="google-site-verification"
+      content="q_HFMM6gv2mG9LPwVUOHn81nPwFIR_4VJwjNrCzUCRQ"
+    />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta
+      name="keywords"
+      content="software developer, web developer, personal portfolio, portfolio, Joseph, Menezes, Joseph Menezes, Application,personal"
+    />
     <title>Joseph&#39;s Personal Portfolio</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"/>
-    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" rel="stylesheet"/>
-    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
-    <link href="CSS/styles.css" rel="stylesheet"/>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc"
+      rel="stylesheet"
+    />
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      rel="stylesheet"
+    />
+    <link href="CSS/styles.css" rel="stylesheet" />
     <!--Fonts-->
-    <link href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&amp;display=swap"
-            rel="stylesheet"/>
-    <link href="https://fonts.gstatic.com" rel="preconnect"/>
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
-            rel="stylesheet"/>
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD3EX6V8Y0"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QD3EX6V8Y0"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-        gtag('js', new Date());
+      gtag("js", new Date());
 
-        gtag('config', 'G-QD3EX6V8Y0');
+      gtag("config", "G-QD3EX6V8Y0");
     </script>
-</head>
+  </head>
 
+  <body>
+    <header>
+      <div class="logo"><img alt="" src="Img/logo/TitleLogo.png" /></div>
 
-<body>
-<header>
-    <div class="logo"><img alt="" src="Img/logo/TitleLogo.png"/></div>
+      <svg
+        class="ham hamRotate ham1 hamMenu"
+        viewBox="0 0 100 100"
+        width="80"
+        onclick="this.classList.toggle('active')"
+      >
+        <path
+          class="line top"
+          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
+        />
+        <path class="line middle" d="m 30,50 h 40" />
+        <path
+          class="line bottom"
+          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
+        />
+      </svg>
 
-    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
-        <path class="line top"
-              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"/>
-        <path class="line middle" d="m 30,50 h 40"/>
-        <path class="line bottom"
-              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"/>
-    </svg>
-
-    <div id="myNav" class="overlay">
+      <div id="myNav" class="overlay">
         <div class="overlay-content">
-            <a class="nav__link" href="#home">Home</a>
-            <a class="nav__link" href="#services">My Services</a>
-            <a class="nav__link" href="#about">About Me</a>
-            <!-- <a href="#referenceSlide" class="nav__link">References</a> -->
-            <a class="nav__link" href="#work">My Work</a>
+          <a class="nav__link" href="#home">Home</a>
+          <a class="nav__link" href="#services">My Services</a>
+          <a class="nav__link" href="#about">About Me</a>
+          <!-- <a href="#referenceSlide" class="nav__link">References</a> -->
+          <a class="nav__link" href="#work">My Work</a>
         </div>
-    </div>
+      </div>
+    </header>
+    <!-- Introduction -->
 
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Joseph Menezes</strong>
+      </h1>
 
-    <!-- <nav role="navigation">
-        <div id="menuToggle">
+      <p class="section__subtitle section__subtitle--intro">
+        System Flow Specialist
+      </p>
+      <img
+        alt="an Image of the main logo"
+        class="intro__img"
+        src="Img/logo/mainLogo.png"
+      />
+    </section>
+    <!-- My Service -->
 
-            <input type="checkbox" />
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
 
-
-
-            <span></span>
-            <span></span>
-            <span></span>
-    </nav> -->
-</header>
-<!-- Introduction -->
-
-<section class="intro" id="home">
-    <h1 class="section__title section__title--intro">Hi, I am <strong>Joseph Menezes</strong></h1>
-
-    <p class="section__subtitle section__subtitle--intro">Software Developer</p>
-    <img alt="an Image of the main logo" class="intro__img" src="Img/logo/mainLogo.png"/>
-</section>
-<!-- My Service -->
-
-<section class="my-services" id="services">
-    <h2 class="section__title section__title--services">What I do</h2>
-
-    <div class="services">
+      <div class="services">
         <div class="service">
-            <h3>Software Development</h3>
-            &nbsp;
+          <h3>System Flow Specialist</h3>
+          &nbsp;
 
-            <p>Through my work and experience, I have demonstrated my software development capabilities. In working
-                with clients and team members, I have proven the ability to produce satisfactory outcomes.</p>
+          <p>
+            Through my work and experience, I have demonstrated my software
+            development capabilities. In working with clients and team members,
+            I have proven the ability to produce satisfactory outcomes.
+          </p>
         </div>
 
         <div class="service">
-            <h3>Web Design</h3>
-            &nbsp;
+          <h3>Web Design</h3>
+          &nbsp;
 
-            <p>In this project and many of which are in my portfolio, I have collaborated with companies and
-                clients, to produce a satisfactory website with the use of JavaScript, HTML and CSS. Furthering this
-                over the years I have incorportated back-end development using PostgreSQL and Flask.</p>
+          <p>
+            In this project and many of which are in my portfolio, I have
+            collaborated with companies and clients, to produce a satisfactory
+            website with the use of JavaScript, HTML and CSS. Furthering this
+            over the years I have incorportated back-end development using
+            PostgreSQL and Flask.
+          </p>
         </div>
 
         <div class="service">
-            <h3>Android Development</h3>
-            &nbsp;
+          <h3>Android Development</h3>
+          &nbsp;
 
-            <p>In my work I have used Android Studio, and it&#39;s infrastructure of Java and XML, To create mobile
-                applications that fit the needs of the client and develops user engagement. With recent developments
-                of learning Flutter, my Android Development can and will expand towards a more general Mobile
-                Development.</p>
+          <p>
+            In my work I have used Android Studio, and it&#39;s infrastructure
+            of Java and XML, To create mobile applications that fit the needs of
+            the client and develops user engagement. With recent developments of
+            learning Flutter, my Android Development can and will expand towards
+            a more general Mobile Development.
+          </p>
         </div>
-    </div>
-    <a class="btn" href="#work">My Work</a>
-    <a class="btn" href="https://github.com/joeguy57?tab=repositories">My Repository</a>
-</section>
-<!--About me-->
+        <div class="service">
+          <h3>Data Analyst</h3>
+          &nbsp;
 
-<section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who I am</h2>
+          <p>
+            As a data analyst, I have experience in utilizing data analysis and
+            optimization techniques to improve system efficiency. I have
+            knowledge of databases such as MySQL and Firebase, and experience in
+            data visualization and analysis using Power BI. My ability to
+            analyze and interpret complex data sets has allowed me to provide
+            valuable insights and recommendations to help drive data-driven
+            decisions.
+          </p>
+        </div>
+      </div>
+      <a class="btn" href="#work">My Work</a>
+      <a class="btn" href="https://github.com/joeguy57?tab=repositories"
+        >My Repository</a
+      >
+    </section>
+    <!--About me-->
 
-    <p class="section__subtitle section__subtitle--about">Computing Science Student</p>
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
 
-    <div class="about-me__body">
-        <p>I am a hard-working Computing Science student, who displays leadership and problem-solving skills. I
-            currently attend the University of Alberta, with 4 months of work experience. I have proven knowledge of
-            web design, database development, programming skills and OS maintenance who would be an asset to any
-            company. Frequently praised for being efficient, good at communication and exceptional teamwork
-            capabilities by my peers, I can be relied upon to help your company achieve its goals.</p>
+      <p class="section__subtitle section__subtitle--about">
+        System Flow Specialist
+      </p>
 
-        <p>For many years I have learned Information Technology starting from High School then transformed that
-            passion to Computer Science in university. Currently, I hold certificates in technical support. This
-            provides me with the ability to troubleshoot certain problems in the systems and networks of a company.
+      <div class="about-me__body">
+        <p>
+          I am a recent graduate of the University of Alberta with a Bachelor's
+          degree in Computing Science. I have a strong background in software
+          development and programming and experience in IT support, inventory
+          management, and data optimization. My most recent role was as a System
+          Flow Project Coordinator for the Saskatchewan Health Authorities where
+          I coordinated and managed project timelines, provided training and
+          support to staff, and used data analysis and optimization techniques
+          to improve system efficiency. I have strong public speaking and
+          communication skills, as well as time management, problem-solving, and
+          team collaboration skills.
+        </p>
+        <p>
+          In my previous role as an International Student Representative for the
+          Augustana Student Association, I coordinated with various clubs and
+          groups to accommodate the needs of international students and improve
+          their satisfaction on campus. I have also interned as an Information
+          Technology Intern for Al Jaber Engineering where I maintained servers
+          and workstations and provided technical support to employees.
+        </p>
+        <p>
+          My technical skills include proficiency in programming languages such
+          as Python, Java, and JavaScript for android development and web
+          design. I am also experienced in web development technologies such as
+          HTML, CSS, and JavaScript, as well as using Git and GitHub for version
+          control and code management. I have knowledge of databases such as
+          MySQL and Firebase, and experience in data visualization and analysis
+          using Power BI. I am also proficient in Microsoft Office and Google
+          Suite.
+        </p>
+        <p>
+          In addition to my professional experience, I have also had the
+          opportunity to volunteer as a web and software developer for Academics
+          Without Borders where I provided open-source textbooks for a
+          university in Eswatini. I also served as the Vice-President of Inside
+          the Club, where I coordinated software development workshops and
+          events with other clubs.
+        </p>
+        <p>
+          I have received several awards and certifications, including the Mark
+          Chytracek Leadership award, completion of five courses in Google IT
+          Support, a valid WHIMS training certificate, the Onesimus Award, and
+          the FURCA Outstanding Communication – Demonstration award.
         </p>
 
-        <p>Do feel free to go through my portfolio to see any of the projects that I am proud to display, showcasing
-            my use of programming language. Also, visit my LinkedIn and other social platforms.</p>
+        <p>
+          I invite you to visit my GitHub repository to see my projects and
+          experience in action. There, you will find examples of my technical
+          skills and the ability to collaborate and contribute to open-source
+          projects. I am constantly learning and exploring new technologies, and
+          my GitHub repository showcases my growth and progress as a developer.
+          Thank you for taking the time to read about my background and I look
+          forward to connecting with you!
+        </p>
 
         <p><a href="#footer">Social Links</a></p>
-    </div>
-    <img alt="image of Joseph Menezes" class="about-me__img" src="Img/profilePic.jpg"/>
-</section>
-<!--My Work-->
+      </div>
+      <img
+        alt="image of Joseph Menezes"
+        class="about-me__img"
+        src="Img/joseph_image.png"
+      />
+    </section>
+    <!--My Work-->
 
-<section class="my-work" id="work">
-    <h2 class="section__title section__title--work">My Work</h2>
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
 
-    <p class="section__subtitle section__subtitle--work"></p>
+      <p class="section__subtitle section__subtitle--work"></p>
 
-    <div class="portfolio"><a class="portfolio__item" href="portfolioItem.html"><img alt="portfolio__1"
-                                                                                     class="portfolio__img"
-                                                                                     src="Img/Portfolio/port__1.jpg"/>
-    </a> <a class="portfolio__item"
-            href="portfolioItem.html"> <img alt="portfolio__2" class="portfolio__img"
-                                            src="Img/Portfolio/port__2.jpg"/> </a> <a class="portfolio__item"
-                                                                                      href="portfolioItem.html"> <img
-            alt="portfolio__3" class="portfolio__img" src="Img/Portfolio/port__3.jpg"/> </a> <a
-            class="portfolio__item" href="portfolioItem.html"> <img alt="portfolio__4" class="portfolio__img"
-                                                                    src="Img/Portfolio/port__4.jpg"/> </a> <a
-            class="portfolio__item" href="portfolioItem.html"> <img
-            alt="portfolio__5" class="portfolio__img" src="Img/Portfolio/port__5.jpg"/> </a></div>
-</section>
-<!--footer-->
+      <div class="portfolio">
+        <a class="portfolio__item" href="portfolioItem.html"
+          ><img
+            alt="portfolio__1"
+            class="portfolio__img"
+            src="Img/Portfolio/port__1.jpg"
+          />
+        </a>
+        <a class="portfolio__item" href="portfolioItem.html">
+          <img
+            alt="portfolio__2"
+            class="portfolio__img"
+            src="Img/Portfolio/port__2.jpg"
+          />
+        </a>
+        <a class="portfolio__item" href="portfolioItem.html">
+          <img
+            alt="portfolio__3"
+            class="portfolio__img"
+            src="Img/Portfolio/port__3.jpg"
+          />
+        </a>
+        <a class="portfolio__item" href="portfolioItem.html">
+          <img
+            alt="portfolio__4"
+            class="portfolio__img"
+            src="Img/Portfolio/port__4.jpg"
+          />
+        </a>
+        <a class="portfolio__item" href="portfolioItem.html">
+          <img
+            alt="portfolio__5"
+            class="portfolio__img"
+            src="Img/Portfolio/port__5.jpg"
+          />
+        </a>
+      </div>
+    </section>
 
-<footer class="footer" id="footer"><a class="footer__link"
-                                      href="mailto:josephm340@gmail.com">hello@josephmenezes.me</a>
+    <!--Work Experience -->
+    
+    <section class="work-experience" id="work_experience">
+        <h2 class="section__title section__title--work-experience">Work Experience</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">
+          SYSTEM FLOW PROJECT COORDINATOR, SASKATCHEWAN HEALTH AUTHORITIES
+        </div>
+        <p class="timeline-description">
+          Coordinated and managed project timelines and deliverables for the implementation of a new system flow process within the healthcare system, resulting in a 25% reduction in patient wait times. Worked closely with cross-functional teams, including IT, clinical operations, and management, to ensure successful implementation and adoption of the new system, with a 95% staff satisfaction rate. Provided staff training and support on the new system's usage and benefits, resulting in a 40% increase in staff proficiency.
+        </p>
+        <p class="timeline-description">
+          Utilized data analysis and optimization techniques, including Power BI, to improve system performance and inform decision-making for ongoing development and maintenance of the new system flow process, resulting in a 15% increase in system efficiency. Collaborated with external vendors and partners to integrate and align the new system with existing technologies and processes, resulting in seamless integration and improved system integration.
+        </p>
+        <div class="timeline-details">
+          AUG 2022 – PRESENT
+        </div>
+      </div>
+      
+      <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">
+          International Student Representative, Augustana Student Association
+        </div>
+        <p class="timeline-description">
+          As the International Student Representative for the Augustana Student Association, I had the opportunity to play a crucial role in the well-being and satisfaction of international students on campus. I collaborated with various clubs and groups to ensure that the needs of international students were met and addressed. My responsibilities included coordinating events and activities that cater to the unique needs of international students, as well as providing support and resources to make their transition to a new environment as smooth as possible. Through this role, I developed strong communication and leadership skills, and I am proud to have made a positive impact on the lives of international students during my time at the university
+        </p>
+        <div class="timeline-details">
+          May 2021 – May 2022
+        </div>
+      </div>
 
-    <ul class="social-list">
-        <li class="social-list__item"></li>
+      <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-title">
+          IT Support, Al Jaber Engineering
+        </div>
+        <p class="timeline-description">
+          As an Information Technology Intern for Al Jaber Engineering, I was able to develop and strengthen my technical skills. My responsibilities included maintaining servers and workstations, as well as providing technical support to employees. I was able to work in a fast-paced and dynamic environment, effectively communicating and collaborating with both technical and non-technical colleagues. This experience allowed me to gain hands-on experience in troubleshooting technical issues and implementing solutions, further enhancing my technical abilities. Furthermore, I was able to contribute to the overall efficiency and productivity of the company through my technical support and maintenance efforts.
+        </p>
+        <div class="timeline-details">
+          Apr 2019 – Jul 2019
+        </div>
+      </div>
+        </div>
+      
+    </section>
+    <!--footer-->
+
+    <footer class="footer" id="footer">
+      <a class="footer__link" href="mailto:josephm340@gmail.com"
+        >hello@josephmenezes.me</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/joeguy57"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
         <!---github-->
-        <li class="social-list__item"></li>
-        <!---instagram-->
-        <li class="social-list__item"></li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/joseph-menezes/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
         <!---LinkedIn-->
-    </ul>
-</footer>
-<script src="JS/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-</body>
-
+      </ul>
+    </footer>
+    <script src="JS/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
