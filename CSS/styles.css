@@ -617,3 +617,27 @@ header {
     width: 100%;
   }
 }
+
+.work-experience{
+  padding-bottom: 0;
+}
+
+.work-experience__link{
+  text-align: center;
+  padding: 1rem;
+}
+
+.work-experience__link a {
+  
+  margin-top: 20px;
+  text-decoration: none;
+  color: var(--clr-accent-1);
+  cursor: pointer;
+  font-weight: var(--fw-bold);
+}
+
+.work-experience__link a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: var(--clr-accent);
+}
