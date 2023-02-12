@@ -24,11 +24,19 @@ navLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
     const sectionId = e.target.getAttribute("href");
-    const section = document.querySelector(sectionId);
-    section.scrollIntoView({ behavior: "smooth" });
-    document.getElementById("myNav").style.width = "";
-    hamMenu.classList.remove("fixed-menu");
-    hamMenu.classList.toggle('active');
+    try {
+      const section = document.querySelector(sectionId);
+      section.scrollIntoView({ behavior: "smooth" });
+      document.getElementById("myNav").style.width = "";
+      hamMenu.classList.remove("fixed-menu");
+      hamMenu.classList.toggle("active");
+    } catch (error) {
+      let link = '/' + sectionId;
+      link = link.replace('.html/', '.html');
+      window.open(link,"_self");
+    }
+    
+    
   });
 });
 
