@@ -64,7 +64,7 @@ The development of my personal portfolio website is now complete and ready for v
 
 
 ## Copyright and License
-This repository is open-source and released under the MIT License. This license grants you the right to use, modify, and distribute the code in this repository for any purpose, including commercial use, as long as you include a copy of the license and provide attribution to the original author(s).
+This repository is open-source and released under the [MIT License](). This license grants you the right to use, modify, and distribute the code in this repository for any purpose, including commercial use, as long as you include a copy of the license and provide attribution to the original author(s).
 
 Please note that all original content in this repository, including but not limited to the code, text, images, and design, is protected by copyright law. Any unauthorized use, reproduction, or distribution of this content without prior consent from the copyright holder is strictly prohibited.
 
