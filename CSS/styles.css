@@ -579,6 +579,8 @@ header {
 .timeline-container {
   display: flex;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .timeline-item {
@@ -616,11 +618,16 @@ header {
 @media (max-width: 1000px) {
   .timeline-item {
     width: 100%;
+    margin: 1rem 0;
+  }
+  .timeline-container{
+    padding: .5rem;
   }
 }
 
 .work-experience {
   padding: 4rem 0;
+  margin: 2rem auto;
 }
 
 .work-experience__link {
