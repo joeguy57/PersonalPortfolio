@@ -3,6 +3,19 @@ const menu = document.querySelector(".menu");
 const navLinks = document.querySelectorAll(".nav__link");
 const hamMenu = document.querySelector('.hamMenu')
 const portfolioLinks = document.querySelectorAll(".portfolio__item img");
+// Loader
+const loader = document.querySelector(".loader");
+const body = document.querySelector('body');
+
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+window.addEventListener('load', async function () {
+  await delay(2500);
+  body.style.overflow = 'scroll';
+  loader.style.display = 'none';
+})
+
+loading;
 
 function noscroll() {
   window.scrollTo(0, 0);

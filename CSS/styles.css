@@ -50,6 +50,7 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  overflow: hidden;
 }
 
 section {
@@ -655,4 +656,44 @@ header {
   transform: scale(1.05);
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+/* PreLoader */
+
+.loader{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--clr-dark);
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.circular-reveal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circular-reveal__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-reveal__content img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 20%;
 }
